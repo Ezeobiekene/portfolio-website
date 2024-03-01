@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Changa-ExtraLight
+font link: https://www.fontsquirrel.com/fonts/changa
+font author: Eduardo Tunni
+font author site: http://www.tipo.net.ar/
+
+
+icon designer: Milky - Digital innovation
+icon designer link: /Milky
+        
+{"bg":"transparent","icon-gradient-0":"#D0A070","icon-gradient-1":"#6BE371","font":"#000000","slogan":"#141414"}
+      

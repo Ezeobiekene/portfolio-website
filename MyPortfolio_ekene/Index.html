@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ekene's_Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <nav> 
+            <ul class="navList-flex flexed">
+                <li  class="flexBabies name">Ekene Ezeobi</li>
+                <li class="flexBabies"><a href="#resume">Resume</a></li>
+                <li class="flexBabies"><a href="#projects">Projects</a></li>
+                <li class="flexBabies"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flexed">
+        <section id="myPhotoSection">
+            <img id="myPhoto" src="selfie.png" alt="Ekene's Image">
+        </section>
+        <section id="welcomeText">
+            <h1 class="bigText">Hello</h1>
+            <p>
+                My name is Ekene Ezeobi, a dedicated Computer Science student based in Atlanta, Georgia. My academic journey is fueled by a curiosity for learning and a desire to apply my knowledge to solve real-world problems. I look forward to connecting with like-minded peers and professionals who are also navigating the exciting landscape of technology.
+            </p>
+            
+            
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <!-- <a href="#survey">Survey</a> -->
+            <a href="#contact">Contact</a>
+        </section>
+    </main>
+    <section id="resume" class="flexed">
+        <section class="techholder flexed">
+
+                <span class="techIcon">HTML</span>
+                <span class="techIcon">CSS</span>
+                <span class="techIcon">JavaScript</span> 
+            </section>
+          
+           <section class="techholder2 flexed">
+                <span class="techIcon1">Node.js</span>
+                <span class="techIcon1">MongoDB</span>
+                <span class="techIcon1">JavaScript</span>
+          </section>
+
+          <section>
+            
+          </section>
+        
+    </section>
+
+    <section id="projects">
+        <h2>Project</h2>
+        <div >
+            <article class="singleProject flexed">
+                <div>
+                    <h3>Stop Watch</h3>
+                    <p>A user-friendly, web-based stopwatch designed to enhance productivity and focus during study sessions. This application features a simple, intuitive interface allowing users to easily start, pause, and reset the timer. Built with modern web technologies, it's perfect for students and professionals looking for an effective time management tool.</p>
+              </div>
+              <a href="https://ekenes-stop-watch.netlify.app/" ><img class="projectPicture" src="assets/projectpic.png" alt="" /></a>
+            </article>
+            <article class="singleProject flexed">
+            <div>
+                <h3>Weather App</h3>
+                <p>An interactive weather forecasting app that provides real-time weather updates, forecasts, and climate conditions of cities worldwide. Leveraging API data, the app offers detailed information such as temperature, humidity, wind speed, and more, complete with an intuitive and visually appealing interface.</p>
+            </div>
+            <a href="https://ekenes-weather-app.netlify.app/" ><img class="projectPicture" src="assets/weather-app.png" alt="" /></a>
+        </article>
+        </div>
+        
+    </section>
+
+    <section id="contact" >
+     
+        <h1>Contact Me</h1>
+        <section class="flexed">
+             <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+
+        <section class="personalInfo">
+            <div class="col-4 col-12-small">
+                <ul class="labeled-icons">
+                    <li>
+                        <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+                        Kennesaw, GA 30144<br />
+                        United States
+                    </li>
+                    <li>
+                        <h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+                        972-467-3204
+                    </li>
+                    <li>
+                        <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+                        <a href="mailto:ezeobiekene7@gmail.com">ezeobiekene7@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        </section>
+       
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>
